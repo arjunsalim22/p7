@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ContinuousTestSuite">
+    <test name="ContinuousTest" parallel="false">
+        <classes>
+            <class name="Test.Logintest" />
+            <class name="Test.Producttest" />
+            <class name="Test.Addtocarttest" />
+            <class name="Test.Product2test" />
+            <class name="Test.Carttest" />
+            <class name="Test.Logouttest" />
+        </classes>
+    </test>
+</suite>
